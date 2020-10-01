@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/PatrickQueet/SimpleCRM.git/static/css/main.d86d56e4.chunk.css",
+    "main.js": "/PatrickQueet/SimpleCRM.git/static/js/main.c8f4f140.chunk.js",
+    "main.js.map": "/PatrickQueet/SimpleCRM.git/static/js/main.c8f4f140.chunk.js.map",
+    "runtime-main.js": "/PatrickQueet/SimpleCRM.git/static/js/runtime-main.7e41bfcc.js",
+    "runtime-main.js.map": "/PatrickQueet/SimpleCRM.git/static/js/runtime-main.7e41bfcc.js.map",
+    "static/js/2.e57c0874.chunk.js": "/PatrickQueet/SimpleCRM.git/static/js/2.e57c0874.chunk.js",
+    "static/js/2.e57c0874.chunk.js.map": "/PatrickQueet/SimpleCRM.git/static/js/2.e57c0874.chunk.js.map",
+    "index.html": "/PatrickQueet/SimpleCRM.git/index.html",
+    "precache-manifest.68cb3349c71078044ac35667037aa9ef.js": "/PatrickQueet/SimpleCRM.git/precache-manifest.68cb3349c71078044ac35667037aa9ef.js",
+    "service-worker.js": "/PatrickQueet/SimpleCRM.git/service-worker.js",
+    "static/css/main.d86d56e4.chunk.css.map": "/PatrickQueet/SimpleCRM.git/static/css/main.d86d56e4.chunk.css.map",
+    "static/js/2.e57c0874.chunk.js.LICENSE.txt": "/PatrickQueet/SimpleCRM.git/static/js/2.e57c0874.chunk.js.LICENSE.txt",
+    "static/media/Newnet_Fiji_Logo.jpg": "/PatrickQueet/SimpleCRM.git/static/media/Newnet_Fiji_Logo.ba888030.jpg",
+    "static/media/shape.svg": "/PatrickQueet/SimpleCRM.git/static/media/shape.01de5612.svg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.7e41bfcc.js",
+    "static/js/2.e57c0874.chunk.js",
+    "static/css/main.d86d56e4.chunk.css",
+    "static/js/main.c8f4f140.chunk.js"
+  ]
+}
