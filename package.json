@@ -44,9 +44,6 @@
     "type": "opencollective",
     "url": "https://opencollective.com/material-sense"
   },
-  "publishConfig": {
-    "registry": "https://npm.pkg.github.com/"
-  },
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }
