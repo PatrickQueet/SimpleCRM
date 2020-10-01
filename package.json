@@ -1,8 +1,8 @@
 {
-  "name": "material-sense",
+  "name": "SimpleCRM",
   "version": "0.1.0",
-  "private": true,
-  "homepage": "https://alexanmtz.github.io/material-sense",
+  "private": false,
+  "homepage": "https://github.com/PatrickQueet/SimpleCRM.git",
   "dependencies": {
     "@devexpress/dx-react-chart": "^2.7.1",
     "@devexpress/dx-react-chart-material-ui": "^2.7.1",
@@ -11,7 +11,6 @@
     "@material-ui/icons": "^4.2.0",
     "@material-ui/lab": "^4.0.0-alpha.16",
     "@material-ui/styles": "^4.0.0",
-    "gh-pages": "^2.0.1",
     "numeral": "^2.0.6",
     "opencollective-postinstall": "^2.0.2",
     "query-string": "^6.2.0",
@@ -44,5 +43,12 @@
   "collective": {
     "type": "opencollective",
     "url": "https://opencollective.com/material-sense"
+  },
+  "publishConfig": {
+    "registry": "https://npm.pkg.github.com/"
+  },
+  "devDependencies": {
+    "gh-pages": "^2.2.0"
   }
+
 }
