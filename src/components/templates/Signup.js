@@ -24,7 +24,7 @@ import Back from "./common/Back";
 
 const backgroundShape = require("../images/shape.svg");
 
-const logo = require("../images/logo.svg");
+const logo = require("../images/Newnet_Fiji_Logo.jpg");
 
 const numeral = require("numeral");
 numeral.defaultFormat("0");

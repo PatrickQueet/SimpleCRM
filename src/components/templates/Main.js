@@ -5,22 +5,11 @@ import CssBaseline from "@material-ui/core/CssBaseline";
 import Paper from "@material-ui/core/Paper";
 import Typography from "@material-ui/core/Typography";
 import Grid from "@material-ui/core/Grid";
-import Container from "@material-ui/core/Container";
 import Button from "@material-ui/core/Button";
 import InstructionDialog from "./dialogs/InstructionDialog";
 import SwipeDialog from "./dialogs/SwipeDialog";
 
 import Topbar from "./Topbar";
-
-//chart imports
-import { ResponsiveContainer } from "recharts"
-import MultipleAxesGraph from "./Graphs/MultipleAxesGraph";
-import SimpleLineChart from "./Graphs/SimpleLineChart";
-import SimplePieChart from "./Graphs/SimplePieChart";
-
-import TaskManager from "./TaskManager/TaskManager";
-
-// chart end
 
 const backgroundShape = require("../images/shape.svg");
 
@@ -76,7 +65,7 @@ const styles = theme => ({
   box: {
     marginBottom: 40,
     height: 65
-  },  
+  },
   inlining: {
     display: "inline-block",
     marginRight: 10
@@ -142,37 +131,27 @@ class Main extends Component {
             >
               <Grid item xs={12} md={4}>
                 <Paper className={classes.paper}>
-                  <div className={classes.Box}>
+                  <div className={classes.box}>
                     <Typography
                       style={{ textTransform: "uppercase" }}
                       color="secondary"
                       gutterBottom
                     >
-                      Revenue Share
+                      First title
                     </Typography>
-                    
-                    <SimplePieChart />
-                    
+                    <Typography variant="body2" gutterBottom>
+                      A first title style <br /> with two lines
+                    </Typography>
                   </div>
-                  
-                </Paper>
-              </Grid>
-              <Grid item xs={12} md={4}>
-                <Paper className={classes.paper}>
-                  <div className={classes.Box}>
-                    <Typography
-                      style={{ textTransform: "uppercase" }}
-                      color="secondary"
-                      gutterBottom
+                  <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                    <Button
+                      color="primary"
+                      variant="contained"
+                      className={classes.actionButtom}
                     >
-                      Sales by Region
-                    </Typography>
-                    
+                      Learn more
+                    </Button>
                   </div>
-                  
-                    <SimpleLineChart />
-                  
-                  
                 </Paper>
               </Grid>
               <Grid item xs={12} md={4}>
@@ -183,12 +162,54 @@ class Main extends Component {
                       color="secondary"
                       gutterBottom
                     >
-                      Task Manager
+                      Another box
                     </Typography>
-                    
+                    <Typography variant="body1" gutterBottom>
+                      A default box
+                    </Typography>
                   </div>
-                  <div>
-                    <TaskManager />
+                  <div style={{ display: "flex", justifyContent: "flex-end" }}>
+                    <Button
+                      color="primary"
+                      variant="contained"
+                      className={classes.actionButtom}
+                    >
+                      Learn more
+                    </Button>
+                  </div>
+                </Paper>
+              </Grid>
+              <Grid item xs={12} md={4}>
+                <Paper className={classes.paper}>
+                  <div className={classes.box}>
+                    <Typography
+                      style={{ textTransform: "uppercase" }}
+                      color="secondary"
+                      gutterBottom
+                    >
+                      A box with a carousel
+                    </Typography>
+                    <Typography variant="body1" gutterBottom>
+                      If you click in Getting Started, you will see a nice
+                      carousel
+                    </Typography>
+                  </div>
+                  <div className={classes.alignRight}>
+                    <Button
+                      onClick={this.openDialog}
+                      variant="outlined"
+                      className={classes.actionButtom}
+                    >
+                      Learn more
+                    </Button>
+                    <Button
+                      onClick={this.openGetStartedDialog}
+                      color="primary"
+                      variant="contained"
+                      className={classes.actionButtom}
+                    >
+                      Dashboard
+                    </Button>
                   </div>
                 </Paper>
               </Grid>

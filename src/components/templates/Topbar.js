@@ -104,20 +104,17 @@ class Topbar extends Component {
     if (this.props.currentPath === "/home") {
       return 0;
     }
-    if (this.props.currentPath === "/customers") {
+    if (this.props.currentPath === "/dashboard") {
       return 1;
     }
-    if (this.props.currentPath === "/quotes") {
+    if (this.props.currentPath === "/signup") {
       return 2;
     }
-    if (this.props.currentPath === "/invoices") {
+    if (this.props.currentPath === "/wizard") {
       return 3;
     }
-    if (this.props.currentPath === "/reports") {
+    if (this.props.currentPath === "/cards") {
       return 4;
-    }
-    if (this.props.currentPath === "/products") {
-      return 5;
     }
   };
 
@@ -132,15 +129,15 @@ class Topbar extends Component {
               <div className={classes.inline}>
                 <Typography variant="h6" color="inherit" noWrap>
                   <Link to="/" className={classes.link}>
-                    <img width={200} height={57} src={logo} alt="" />
-                    
+                    <img width={20} src={logo} alt="" />
+                    <span className={classes.tagline}>Material Sense</span>
                   </Link>
                 </Typography>
               </div>
               {!this.props.noTabs && (
                 <React.Fragment>
                   <div className={classes.productLogo}>
-                    <Typography>SimpleCRM</Typography>
+                    <Typography>A material UI Template</Typography>
                   </div>
                   <div className={classes.iconContainer}>
                     <IconButton
