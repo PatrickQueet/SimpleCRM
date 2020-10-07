@@ -44,6 +44,7 @@
     "type": "opencollective",
     "url": "https://opencollective.com/material-sense"
   },
+  
   "devDependencies": {
     "gh-pages": "^2.2.0"
   }

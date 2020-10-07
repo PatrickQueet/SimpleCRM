@@ -42,10 +42,10 @@ export default function CheckboxListSecondary() {
             <ListItemAvatar>
               <Avatar
                 alt={`Avatar n°${value + 1}`}
-                src={`/static/images/avatar/${value + 1}.jpg`}
+                src={`../../image/avatar/${value +1}.png`}
               />
             </ListItemAvatar>
-            <ListItemText id={labelId} primary={`Line item ${value + 1}`} />
+            <ListItemText id={labelId} primary={`Request from Customer 54${value + 1}`} />
             <ListItemSecondaryAction>
               <Checkbox
                 edge="end"
